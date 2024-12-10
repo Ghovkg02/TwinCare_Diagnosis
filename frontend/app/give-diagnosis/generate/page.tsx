@@ -39,10 +39,10 @@ const PatientInfoComponent: React.FC = () => {
     setPatientInfo(patient);
   }, []);
 
-  const fetchPatientInfo = () => {
+ // const fetchPatientInfo = () => {
     // api call
-    setLoading(false);
-  };
+  //  setLoading(false);
+ // };
 
   const [medicines, setMedicines] = useState("");
   const [list, setList] = useState<string[]>([]);
